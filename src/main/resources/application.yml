@@ -1,0 +1,22 @@
+spring:
+  security:
+    user:
+      name: walter
+      password: 1234
+  application:
+    name: example
+  profiles:
+    active: dev
+server:
+  port: 8080
+  servlet:
+    context-path: /challenge-demo/api
+logging:
+  level:
+    ROOT: INFO
+client:
+  lob-java:
+    api-key: test_7971251b00758588ac7091a907f3a4f0640
+springdoc:
+  api-docs:
+    path=/api-docs:
